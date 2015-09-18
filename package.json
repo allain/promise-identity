@@ -1,0 +1,21 @@
+{
+  "name": "promise-identity",
+  "version": "1.0.0",
+  "author": "Allain Lalonde <allain.lalonde@gmail.com>",
+  "description": "An asynchronous identity function that returns a Promise resoling to the value it's been given.",
+  "main": "index.js",
+  "keywords": [
+    "promise",
+    "identity"
+  ],
+  "scripts": {
+    "test": "blue-tape test"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "blue-tape": "^0.1.10"
+  },
+  "dependencies": {
+    "bluebird": "^2.10.0"
+  }
+}
